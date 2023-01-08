@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Transform {
-    var size: CGSize = .init(width: 250, height: 180)
+    var size: CGSize = .init(width: Settings.defaultElementSize.width, height: Settings.defaultElementSize.height)
     var rotation: Angle = .zero
     var offset: CGSize = .zero
 }
