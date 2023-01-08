@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct ToolbarButtonView: View {
+    private let modalButton: [CardModal: (text: String, imageName: String)] = [
+        .photoPicker: ("Photos", "photo"),
+        .framePicker: ("Frames", "square.on.circle"),
+        .stickerPicker: ("Stickers", "heart.circle"),
+        .textPicker: ("Text", "textformat")
+    ]
+    let modal: CardModal
     var body: some View {
-        VStack {
-            Image(systemName: "heart.circle")
+        let text = modalButton[modal]!.text
+        let imageName = modalButton[modal]!.imageName
+        return VStack {
+            Image(systemName: imageName)
                 .font(.largeTitle)
-            Text("Stickers")
+            Text(text)
         }
         .padding(.top)
     }
@@ -20,6 +29,6 @@ struct ToolbarButtonView: View {
 
 struct ToolbarButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        ToolbarButtonView()
+        ToolbarButtonView(modal: .textPicker)
     }
 }
