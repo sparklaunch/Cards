@@ -12,7 +12,9 @@ struct SingleCardView: View {
     var body: some View {
         NavigationView {
             CardDetailView()
+                .navigationBarTitleDisplayMode(.inline)
         }
+        .navigationViewStyle(.stack)
     }
 }
 
