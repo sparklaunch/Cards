@@ -11,7 +11,7 @@ struct CardDetailView: View {
     @State private var currentModal: CardModal?
     @EnvironmentObject var viewState: ViewState
     var body: some View {
-        Color.yellow
+        content
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button("Done") {
@@ -22,6 +22,21 @@ struct CardDetailView: View {
                     CardBottomToolbar(cardModal: $currentModal)
                 }
             }
+    }
+    var content: some View {
+        ZStack {
+            Capsule()
+                .foregroundColor(.yellow)
+                .resizableView()
+            Text("Resize Me!")
+                .font(.system(size: 500))
+                .minimumScaleFactor(0.01)
+                .lineLimit(1)
+                .resizableView()
+            Circle()
+                .resizableView()
+                .offset(.init(width: 50, height: 200))
+        }
     }
 }
 
