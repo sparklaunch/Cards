@@ -11,14 +11,7 @@ struct SingleCardView: View {
     @EnvironmentObject var viewState: ViewState
     var body: some View {
         NavigationView {
-            Color.yellow
-                .toolbar {
-                    ToolbarItem(placement: .navigationBarTrailing) {
-                        Button("Done") {
-                            viewState.showAllCards.toggle()
-                        }
-                    }
-            }
+            CardDetailView()
         }
     }
 }
