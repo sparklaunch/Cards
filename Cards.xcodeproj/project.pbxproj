@@ -18,6 +18,8 @@
 		9036BB5A296A86D80006C850 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB59296A86D80006C850 /* CardsView.swift */; };
 		9036BB5C296A89670006C850 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB5B296A89670006C850 /* CardDetailView.swift */; };
 		9036BB5E296A8BB60006C850 /* CardModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB5D296A8BB60006C850 /* CardModal.swift */; };
+		9036BB61296A8C010006C850 /* CardBottomToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB60296A8C010006C850 /* CardBottomToolbar.swift */; };
+		9036BB63296A8CA90006C850 /* ToolbarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB62296A8CA90006C850 /* ToolbarButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		9036BB59296A86D80006C850 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
 		9036BB5B296A89670006C850 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
 		9036BB5D296A8BB60006C850 /* CardModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModal.swift; sourceTree = "<group>"; };
+		9036BB60296A8C010006C850 /* CardBottomToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBottomToolbar.swift; sourceTree = "<group>"; };
+		9036BB62296A8CA90006C850 /* ToolbarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 		9036BB40296A82F10006C850 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				9036BB5F296A8BF50006C850 /* Components */,
 				9036BB50296A83D10006C850 /* Views */,
 				9036BB41296A82F10006C850 /* CardsApp.swift */,
 				9036BB45296A82F30006C850 /* Assets.xcassets */,
@@ -96,6 +101,15 @@
 				9036BB5B296A89670006C850 /* CardDetailView.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		9036BB5F296A8BF50006C850 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9036BB60296A8C010006C850 /* CardBottomToolbar.swift */,
+				9036BB62296A8CA90006C850 /* ToolbarButtonView.swift */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,9 +188,11 @@
 				9036BB58296A85DB0006C850 /* ViewState.swift in Sources */,
 				9036BB42296A82F10006C850 /* CardsApp.swift in Sources */,
 				9036BB56296A856B0006C850 /* SingleCardView.swift in Sources */,
+				9036BB61296A8C010006C850 /* CardBottomToolbar.swift in Sources */,
 				9036BB54296A850C0006C850 /* CardThumbnailView.swift in Sources */,
 				9036BB5E296A8BB60006C850 /* CardModal.swift in Sources */,
 				9036BB5C296A89670006C850 /* CardDetailView.swift in Sources */,
+				9036BB63296A8CA90006C850 /* ToolbarButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
