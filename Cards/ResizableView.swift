@@ -15,7 +15,7 @@ struct ResizableView: View {
     var body: some View {
         let dragGesture = DragGesture()
             .onChanged { value in
-                transform.offset = .init(width: value.translation.width + previousOffset.width, height: value.translation.height + previousOffset.height)
+                transform.offset = value.translation + previousOffset
             }
             .onEnded { _ in
                 previousOffset = transform.offset
