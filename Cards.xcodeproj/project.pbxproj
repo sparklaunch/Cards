@@ -11,6 +11,7 @@
 		9036BB44296A82F10006C850 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB43296A82F10006C850 /* ContentView.swift */; };
 		9036BB46296A82F30006C850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9036BB45296A82F30006C850 /* Assets.xcassets */; };
 		9036BB4A296A82F30006C850 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9036BB49296A82F30006C850 /* Preview Assets.xcassets */; };
+		9036BB52296A841F0006C850 /* CardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB51296A841F0006C850 /* CardsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		9036BB45296A82F30006C850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9036BB47296A82F30006C850 /* Cards.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cards.entitlements; sourceTree = "<group>"; };
 		9036BB49296A82F30006C850 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9036BB51296A841F0006C850 /* CardsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				9036BB43296A82F10006C850 /* ContentView.swift */,
+				9036BB51296A841F0006C850 /* CardsListView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9036BB44296A82F10006C850 /* ContentView.swift in Sources */,
+				9036BB52296A841F0006C850 /* CardsListView.swift in Sources */,
 				9036BB42296A82F10006C850 /* CardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
