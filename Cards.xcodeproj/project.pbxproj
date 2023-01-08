@@ -17,6 +17,7 @@
 		9036BB58296A85DB0006C850 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB57296A85DB0006C850 /* ViewState.swift */; };
 		9036BB5A296A86D80006C850 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB59296A86D80006C850 /* CardsView.swift */; };
 		9036BB5C296A89670006C850 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB5B296A89670006C850 /* CardDetailView.swift */; };
+		9036BB5E296A8BB60006C850 /* CardModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB5D296A8BB60006C850 /* CardModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9036BB57296A85DB0006C850 /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
 		9036BB59296A86D80006C850 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
 		9036BB5B296A89670006C850 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		9036BB5D296A8BB60006C850 /* CardModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				9036BB47296A82F30006C850 /* Cards.entitlements */,
 				9036BB48296A82F30006C850 /* Preview Content */,
 				9036BB57296A85DB0006C850 /* ViewState.swift */,
+				9036BB5D296A8BB60006C850 /* CardModal.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				9036BB42296A82F10006C850 /* CardsApp.swift in Sources */,
 				9036BB56296A856B0006C850 /* SingleCardView.swift in Sources */,
 				9036BB54296A850C0006C850 /* CardThumbnailView.swift in Sources */,
+				9036BB5E296A8BB60006C850 /* CardModal.swift in Sources */,
 				9036BB5C296A89670006C850 /* CardDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
