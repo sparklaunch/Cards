@@ -9,12 +9,22 @@ import SwiftUI
 
 struct ResizableView: View {
     @State private var transform: Transform = .init()
+    @State private var previousOffset: CGSize = .zero
     private let content = RoundedRectangle(cornerRadius: 30.0, style: .continuous)
     private let color: Color = .red
     var body: some View {
+        let dragGesture = DragGesture()
+            .onChanged { value in
+                transform.offset = .init(width: value.translation.width + previousOffset.width, height: value.translation.height + previousOffset.height)
+            }
+            .onEnded { _ in
+                previousOffset = transform.offset
+            }
         content
             .frame(width: transform.size.width, height: transform.size.height)
             .foregroundColor(color)
+            .offset(transform.offset)
+            .gesture(dragGesture)
     }
 }
 
