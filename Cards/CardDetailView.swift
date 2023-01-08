@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CardDetailView: View {
+    @State private var currentModal: CardModal?
     @EnvironmentObject var viewState: ViewState
     var body: some View {
         Color.yellow
@@ -16,6 +17,9 @@ struct CardDetailView: View {
                     Button("Done") {
                         viewState.showAllCards.toggle()
                     }
+                }
+                ToolbarItem(placement: .bottomBar) {
+                    CardBottomToolbar(cardModal: $currentModal)
                 }
             }
     }
