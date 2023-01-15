@@ -32,6 +32,7 @@
 		9036BB7E2973A4CE0006C850 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB7D2973A4CE0006C850 /* Card.swift */; };
 		9036BB802973A5170006C850 /* CardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB7F2973A5170006C850 /* CardStore.swift */; };
 		9036BB822973A6F00006C850 /* ImageElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB812973A6F00006C850 /* ImageElement.swift */; };
+		9036BB842973A7420006C850 /* TextElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB832973A7420006C850 /* TextElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		9036BB7D2973A4CE0006C850 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		9036BB7F2973A5170006C850 /* CardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStore.swift; sourceTree = "<group>"; };
 		9036BB812973A6F00006C850 /* ImageElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageElement.swift; sourceTree = "<group>"; };
+		9036BB832973A7420006C850 /* TextElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				9036BB7D2973A4CE0006C850 /* Card.swift */,
 				9036BB7F2973A5170006C850 /* CardStore.swift */,
 				9036BB812973A6F00006C850 /* ImageElement.swift */,
+				9036BB832973A7420006C850 /* TextElement.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				9036BB5A296A86D80006C850 /* CardsView.swift in Sources */,
 				9036BB44296A82F10006C850 /* ContentView.swift in Sources */,
 				9036BB762973A2AD0006C850 /* PreviewData.swift in Sources */,
+				9036BB842973A7420006C850 /* TextElement.swift in Sources */,
 				9036BB66296AC4730006C850 /* ResizableView.swift in Sources */,
 				9036BB7A2973A2E80006C850 /* TextExtensions.swift in Sources */,
 				9036BB52296A841F0006C850 /* CardsListView.swift in Sources */,
