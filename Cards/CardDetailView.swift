@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CardDetailView: View {
+    @Binding var card: Card
     @State private var currentModal: CardModal?
     @EnvironmentObject var viewState: ViewState
     var body: some View {
@@ -42,7 +43,7 @@ struct CardDetailView: View {
 
 struct CardDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        CardDetailView()
+        CardDetailView(card: .constant(initialCards.first!))
             .environmentObject(ViewState())
     }
 }

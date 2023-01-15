@@ -14,4 +14,9 @@ class CardStore: ObservableObject {
             cards = initialCards
         }
     }
+    func index(for card: Card) -> Int? {
+        return cards.firstIndex { innerCard in
+            return innerCard.id == card.id
+        }
+    }
 }
