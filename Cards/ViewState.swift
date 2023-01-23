@@ -16,4 +16,9 @@ class ViewState: ObservableObject {
         }
     }
     var selectedCard: Card?
+    convenience init(card: Card) {
+        self.init()
+        showAllCards = false
+        selectedCard = card
+    }
 }

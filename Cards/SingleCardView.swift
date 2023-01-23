@@ -24,7 +24,7 @@ struct SingleCardView: View {
 struct SingleCardView_Previews: PreviewProvider {
     static var previews: some View {
         SingleCardView()
-            .environmentObject(ViewState())
+            .environmentObject(ViewState(card: initialCards[0]))
             .environmentObject(CardStore(defaultData: true))
     }
 }

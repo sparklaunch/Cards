@@ -34,6 +34,7 @@
 		9036BB822973A6F00006C850 /* ImageElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB812973A6F00006C850 /* ImageElement.swift */; };
 		9036BB842973A7420006C850 /* TextElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB832973A7420006C850 /* TextElement.swift */; };
 		9036BB862973A85C0006C850 /* CardElementExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB852973A85C0006C850 /* CardElementExtensions.swift */; };
+		906894D5297E3A2600ADE305 /* CardElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906894D4297E3A2600ADE305 /* CardElementView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		9036BB812973A6F00006C850 /* ImageElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageElement.swift; sourceTree = "<group>"; };
 		9036BB832973A7420006C850 /* TextElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextElement.swift; sourceTree = "<group>"; };
 		9036BB852973A85C0006C850 /* CardElementExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElementExtensions.swift; sourceTree = "<group>"; };
+		906894D4297E3A2600ADE305 /* CardElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				9036BB59296A86D80006C850 /* CardsView.swift */,
 				9036BB5B296A89670006C850 /* CardDetailView.swift */,
 				9036BB65296AC4730006C850 /* ResizableView.swift */,
+				906894D4297E3A2600ADE305 /* CardElementView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				9036BB5A296A86D80006C850 /* CardsView.swift in Sources */,
 				9036BB44296A82F10006C850 /* ContentView.swift in Sources */,
 				9036BB762973A2AD0006C850 /* PreviewData.swift in Sources */,
+				906894D5297E3A2600ADE305 /* CardElementView.swift in Sources */,
 				9036BB842973A7420006C850 /* TextElement.swift in Sources */,
 				9036BB66296AC4730006C850 /* ResizableView.swift in Sources */,
 				9036BB7A2973A2E80006C850 /* TextExtensions.swift in Sources */,
