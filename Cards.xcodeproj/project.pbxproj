@@ -36,6 +36,7 @@
 		9036BB862973A85C0006C850 /* CardElementExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036BB852973A85C0006C850 /* CardElementExtensions.swift */; };
 		906894D5297E3A2600ADE305 /* CardElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906894D4297E3A2600ADE305 /* CardElementView.swift */; };
 		906894D8297E669300ADE305 /* Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 906894D7297E669300ADE305 /* Stickers */; };
+		906894DA297E67B800ADE305 /* StickerPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906894D9297E67B800ADE305 /* StickerPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		906894D4297E3A2600ADE305 /* CardElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElementView.swift; sourceTree = "<group>"; };
 		906894D6297E5FFE00ADE305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		906894D7297E669300ADE305 /* Stickers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Stickers; path = "../../../Downloads/suia-materials-editions-1.0/16-adding-assets-to-your-app/assets/Stickers"; sourceTree = "<group>"; };
+		906894D9297E67B800ADE305 /* StickerPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				9036BB5B296A89670006C850 /* CardDetailView.swift */,
 				9036BB65296AC4730006C850 /* ResizableView.swift */,
 				906894D4297E3A2600ADE305 /* CardElementView.swift */,
+				906894D9297E67B800ADE305 /* StickerPicker.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				9036BB68296AC51D0006C850 /* Transform.swift in Sources */,
 				9036BB58296A85DB0006C850 /* ViewState.swift in Sources */,
 				9036BB7C2973A4AF0006C850 /* CardElement.swift in Sources */,
+				906894DA297E67B800ADE305 /* StickerPicker.swift in Sources */,
 				9036BB802973A5170006C850 /* CardStore.swift in Sources */,
 				9036BB42296A82F10006C850 /* CardsApp.swift in Sources */,
 				9036BB56296A856B0006C850 /* SingleCardView.swift in Sources */,

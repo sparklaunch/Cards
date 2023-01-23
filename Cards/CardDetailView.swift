@@ -26,7 +26,7 @@ struct CardDetailView: View {
             .sheet(item: $currentModal) { item in
                 switch item {
                     case .stickerPicker:
-                        EmptyView()
+                        StickerPicker()
                     default:
                         EmptyView()
                 }
