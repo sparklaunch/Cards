@@ -23,6 +23,14 @@ struct CardDetailView: View {
                     CardBottomToolbar(cardModal: $currentModal)
                 }
             }
+            .sheet(item: $currentModal) { item in
+                switch item {
+                    case .stickerPicker:
+                        EmptyView()
+                    default:
+                        EmptyView()
+                }
+            }
     }
     var content: some View {
         ZStack {
