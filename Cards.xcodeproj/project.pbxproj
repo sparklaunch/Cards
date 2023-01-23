@@ -37,6 +37,7 @@
 		906894D5297E3A2600ADE305 /* CardElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906894D4297E3A2600ADE305 /* CardElementView.swift */; };
 		906894D8297E669300ADE305 /* Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 906894D7297E669300ADE305 /* Stickers */; };
 		906894DA297E67B800ADE305 /* StickerPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906894D9297E67B800ADE305 /* StickerPicker.swift */; };
+		906894DC297E74C400ADE305 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906894DB297E74C400ADE305 /* PhotoPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		906894D6297E5FFE00ADE305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		906894D7297E669300ADE305 /* Stickers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Stickers; path = "../../../Downloads/suia-materials-editions-1.0/16-adding-assets-to-your-app/assets/Stickers"; sourceTree = "<group>"; };
 		906894D9297E67B800ADE305 /* StickerPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerPicker.swift; sourceTree = "<group>"; };
+		906894DB297E74C400ADE305 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				9036BB65296AC4730006C850 /* ResizableView.swift */,
 				906894D4297E3A2600ADE305 /* CardElementView.swift */,
 				906894D9297E67B800ADE305 /* StickerPicker.swift */,
+				906894DB297E74C400ADE305 /* PhotoPicker.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				906894DC297E74C400ADE305 /* PhotoPicker.swift in Sources */,
 				9036BB5A296A86D80006C850 /* CardsView.swift in Sources */,
 				9036BB44296A82F10006C850 /* ContentView.swift in Sources */,
 				9036BB762973A2AD0006C850 /* PreviewData.swift in Sources */,
