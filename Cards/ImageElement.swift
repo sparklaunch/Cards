@@ -9,6 +9,6 @@ import SwiftUI
 
 struct ImageElement: CardElement {
     let id = UUID()
-    var transform: Transform
+    var transform: Transform = .init()
     var image: Image
 }
