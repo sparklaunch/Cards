@@ -15,24 +15,7 @@ struct CardDetailView: View {
     @EnvironmentObject var viewState: ViewState
     var body: some View {
         content
-            .onDrop(of: [.image], isTargeted: nil, perform: { itemProviders, _ in
-                for itemProvider in itemProviders {
-                    if itemProvider.canLoadObject(ofClass: UIImage.self) {
-                        itemProvider.loadObject(ofClass: UIImage.self) { image, error in
-                            if let error {
-                                print(error.localizedDescription)
-                            } else {
-                                if let image = image as? UIImage {
-                                    DispatchQueue.main.async {
-                                        card.addElement(uiImage: image)
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                return true
-            })
+            .onDrop(of: [.image], delegate: CardDrop(card: $card))
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button("Done") {

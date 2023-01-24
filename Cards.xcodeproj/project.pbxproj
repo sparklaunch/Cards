@@ -38,6 +38,7 @@
 		906894D8297E669300ADE305 /* Stickers in Resources */ = {isa = PBXBuildFile; fileRef = 906894D7297E669300ADE305 /* Stickers */; };
 		906894DA297E67B800ADE305 /* StickerPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906894D9297E67B800ADE305 /* StickerPicker.swift */; };
 		906894DC297E74C400ADE305 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906894DB297E74C400ADE305 /* PhotoPicker.swift */; };
+		906894DE297F627500ADE305 /* CardDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906894DD297F627500ADE305 /* CardDrop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		906894D7297E669300ADE305 /* Stickers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Stickers; path = "../../../Downloads/suia-materials-editions-1.0/16-adding-assets-to-your-app/assets/Stickers"; sourceTree = "<group>"; };
 		906894D9297E67B800ADE305 /* StickerPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerPicker.swift; sourceTree = "<group>"; };
 		906894DB297E74C400ADE305 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		906894DD297F627500ADE305 /* CardDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDrop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 				9036BB6C296AD1330006C850 /* ViewExtensions.swift */,
 				9036BB71296AD65B0006C850 /* ColorExtensions.swift */,
 				9036BB852973A85C0006C850 /* CardElementExtensions.swift */,
+				906894DD297F627500ADE305 /* CardDrop.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				906894DC297E74C400ADE305 /* PhotoPicker.swift in Sources */,
+				906894DE297F627500ADE305 /* CardDrop.swift in Sources */,
 				9036BB5A296A86D80006C850 /* CardsView.swift in Sources */,
 				9036BB44296A82F10006C850 /* ContentView.swift in Sources */,
 				9036BB762973A2AD0006C850 /* PreviewData.swift in Sources */,
