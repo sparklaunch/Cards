@@ -39,6 +39,7 @@
 		906894DA297E67B800ADE305 /* StickerPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906894D9297E67B800ADE305 /* StickerPicker.swift */; };
 		906894DC297E74C400ADE305 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906894DB297E74C400ADE305 /* PhotoPicker.swift */; };
 		906894DE297F627500ADE305 /* CardDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906894DD297F627500ADE305 /* CardDrop.swift */; };
+		906894E0297F647200ADE305 /* PencilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906894DF297F647200ADE305 /* PencilView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		906894D9297E67B800ADE305 /* StickerPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerPicker.swift; sourceTree = "<group>"; };
 		906894DB297E74C400ADE305 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		906894DD297F627500ADE305 /* CardDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDrop.swift; sourceTree = "<group>"; };
+		906894DF297F647200ADE305 /* PencilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				906894D4297E3A2600ADE305 /* CardElementView.swift */,
 				906894D9297E67B800ADE305 /* StickerPicker.swift */,
 				906894DB297E74C400ADE305 /* PhotoPicker.swift */,
+				906894DF297F647200ADE305 /* PencilView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				9036BB762973A2AD0006C850 /* PreviewData.swift in Sources */,
 				906894D5297E3A2600ADE305 /* CardElementView.swift in Sources */,
 				9036BB842973A7420006C850 /* TextElement.swift in Sources */,
+				906894E0297F647200ADE305 /* PencilView.swift in Sources */,
 				9036BB66296AC4730006C850 /* ResizableView.swift in Sources */,
 				9036BB7A2973A2E80006C850 /* TextExtensions.swift in Sources */,
 				9036BB52296A841F0006C850 /* CardsListView.swift in Sources */,
