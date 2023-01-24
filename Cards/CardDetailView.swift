@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CardDetailView: View {
+    @State private var images: [UIImage] = []
     @State private var stickerImage: UIImage?
     @Binding var card: Card
     @State private var currentModal: CardModal?
@@ -33,6 +34,14 @@ struct CardDetailView: View {
                                     card.addElement(uiImage: stickerImage)
                                 }
                                 stickerImage = nil
+                            }
+                    case .photoPicker:
+                        PhotoPicker(images: $images)
+                            .onDisappear {
+                                for image in images {
+                                    card.addElement(uiImage: image)
+                                }
+                                images = []
                             }
                     default:
                         EmptyView()
